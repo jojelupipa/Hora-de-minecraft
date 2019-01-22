@@ -14,6 +14,9 @@ plan.remote(
         // Cloning repository
         remote.exec('git clone https://github.com/jojelupipa/Hora-de-minecraft.git');
 
+        // Get settings
+        remote.exec('mv /home/vagrant/Hora-de-minecraft/* /home/vagrant');
+
         // Download java
         remote.exec('wget https://javadl.oracle.com/webapps/download/AutoDL?BundleId=236878_42970487e3af4f5aa5bca3f542482c60');
 
@@ -26,11 +29,8 @@ plan.remote(
         // Download server
         remote.exec('wget https://launcher.mojang.com/v1/objects/3737db93722a9e39eeada7c27e7aca28b144ffa7/server.jar');
 
-        // Move server to right dir
-        remote.exec('mv server.jar Hora-de-minecraft');
-
         // Run server
-        remote.exec('./jre1.8.0_201/bin/java -Xmx1024M -Xms1024M -jar Hora-de-minecraft/server.jar nogui');
+        remote.exec('./jre1.8.0_201/bin/java -Xmx1024M -Xms1024M -jar server.jar nogui');
         
     });
 
@@ -38,7 +38,7 @@ plan.remote(
     'run',
     remote => {
         // Launching server
-         remote.exec('./jre1.8.0_201/bin/java -Xmx1024M -Xms1024M -jar Hora-de-minecraft/server.jar nogui');
+         remote.exec('./jre1.8.0_201/bin/java -Xmx1024M -Xms1024M -jar server.jar nogui');
     });
 
 plan.remote(
@@ -50,5 +50,5 @@ plan.remote(
 plan.remote(
     'deleteAll',
     remote => {
-        remote.rm('-rf .');
+        remote.rm('-rf ./*');
     });
