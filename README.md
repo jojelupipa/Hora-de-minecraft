@@ -4,9 +4,9 @@ Intento de aplicar mis conocimientos adquiridos para que todos podamos jugar a m
 
 ## Necesitarás:
 
-- [Vagrant]()
+- [Vagrant](https://www.vagrantup.com/downloads.html)
 
-- [Flightplan]()
+- [Flightplan](https://www.npmjs.com/package/flightplan)
 
 - Una suscripción en Azure (si eres estudiante tal vez dispongas de una ;) )
 
