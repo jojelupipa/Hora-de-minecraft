@@ -44,11 +44,19 @@ plan.remote(
 plan.remote(
     'stop',
     remote => {
-       // TODO
+        // TODO
+        remote.exec('echo TODO');
     });
 
 plan.remote(
     'deleteAll',
     remote => {
         remote.rm('-rf ./*');
+    });
+
+
+plan.remote(
+    'getIP',
+    remote => {
+        remote.exec('curl ifconfig.me');
     });
