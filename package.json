@@ -1,0 +1,22 @@
+{
+  "name": "hora-de-minecraft",
+  "version": "1.0.0",
+  "description": "Intento de aplicar mis conocimientos adquiridos para que todos podamos jugar a minecraft",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jojelupipa/Hora-de-minecraft.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jojelupipa/Hora-de-minecraft/issues"
+  },
+  "homepage": "https://github.com/jojelupipa/Hora-de-minecraft#readme",
+  "devDependencies": {
+    "flightplan": "^0.6.19"
+  }
+}
