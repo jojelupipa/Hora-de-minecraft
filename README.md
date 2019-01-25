@@ -1,12 +1,21 @@
 # Hora-de-minecraft
-Intento de aplicar mis conocimientos adquiridos para que todos podamos jugar a minecraft
+¿Sientes la necesidad ocasional de jugar a Minecraft? ¿Quieres jugar
+con tus amigos pero no puedes/sabes/quieres montar un servidor en tu
+pc? ¡¡¡Olvídate de todos tus problemas con **Hora de Minecraft**!!!
+
+Con **Hora de Minecraft** podrás tener en unos instantes un servidor
+alojado en Azure con solo clonar este repo y teclear dos comandos.
+
+*Intento de aplicar algunos de mis conocimientos adquiridos para que todos podamos jugar a minecraft.*
+
+
 
 
 ## Necesitarás:
 
 - [Vagrant](https://www.vagrantup.com/downloads.html)
 
-- [Flightplan](https://www.npmjs.com/package/flightplan)
+- [Flightplan](https://www.npmjs.com/package/flightplan) (*globalmente*)
 
 - Una suscripción en Azure (si eres estudiante tal vez dispongas de una ;) )
 
@@ -38,3 +47,10 @@ Si no sabes cual es tu IP usa:
 Elimina tu máquina virtual cuando no la estés usando con:
 
 `vagrant destroy`
+
+
+## Estado actual
+
+Actualmente puedes crear un mundo, jugar con tus amigos y guardarlo,
+para cargar un mundo propio o elegir una semilla personalizada pronto
+se incorporarán más cambios ;)
