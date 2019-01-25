@@ -15,7 +15,7 @@ alojado en Azure con solo clonar este repo y teclear dos comandos.
 
 - [Vagrant](https://www.vagrantup.com/downloads.html)
 
-- [Flightplan](https://www.npmjs.com/package/flightplan) (*globalmente*)
+- [Flightplan](https://www.npmjs.com/package/flightplan) (*local y globalmente*, se puede instalar siguiendo las instrucciones del previo enlace)
 
 - Una suscripción en Azure (si eres estudiante tal vez dispongas de una ;) )
 
